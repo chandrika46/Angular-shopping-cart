@@ -1,0 +1,24 @@
+.heading {
+  text-align: center;
+  margin-top: 80px;
+}
+.products-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+.product-list {
+  margin: 10px 10px;
+  padding: 20px;
+  flex-basis: 16%;
+  list-style-type: none;
+  border: 2px solid silver;
+}
+.product-list li {
+  padding: 5px;
+}
+.add-to-cart-button {
+  background-color: rgb(136, 136, 236);
+  padding: 5px;
+  border-radius: 10%;
+  border-style: hidden;
+}
