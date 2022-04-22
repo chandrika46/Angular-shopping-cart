@@ -1,0 +1,11 @@
+<header class="header" *ngIf="route.url!=='/'&& route.url!=='/login'"> 
+    <nav class="navbar">
+        <div class="navbarheading">
+            <h1>Shopping App</h1>
+        </div>
+        <div class="navbarList">
+            <a [routerLink]="['product-list']" class="navbarContent">Products</a>
+            <a [routerLink]="['mycart']" class="navbarContent">MyCart</a>
+       </div>
+    </nav>   
+</header>

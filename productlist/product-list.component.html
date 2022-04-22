@@ -1,0 +1,14 @@
+
+<h1 class="heading">Product List</h1>
+
+<div class="products-container">
+  <ul class="product-list" *ngFor="let item of products">
+    <li>{{ item.name }}</li>
+    <li>{{ item.price | currency:'INR' }}</li>
+    <a [routerLink]="['/mycart']">
+      <button class="add-to-cart-button" (click)="sendToService(item.id)">
+        <b>Add To MyCart</b>
+      </button>
+    </a>
+  </ul>
+</div>

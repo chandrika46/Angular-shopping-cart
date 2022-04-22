@@ -1,0 +1,12 @@
+[
+  { "id": 1, "name": "Nike Shoes", "quantity": 1, "price": 8000 },
+  { "id": 2, "name": "college Bag", "quantity": 1, "price": 450 },
+  { "id": 3, "name": "Phone Case", "quantity": 1, "price": 750 },
+  { "id": 4, "name": "Bluetooth Hearphones", "quantity": 1, "price": 2000 },
+  { "id": 5, "name": "sports Bottle", "quantity": 1, "price": 800 },
+  { "id": 6, "name": "Phone Charger", "quantity": 1, "price": 500 },
+  { "id": 7, "name": "T-Shirt", "quantity": 1, "price": 1000 },
+  { "id": 8, "name": "Dress Material", "quantity": 1, "price": 2500 },
+  { "id": 9, "name": "Hair straightner", "quantity": 1, "price": 1500 },
+  { "id": 10, "name": "Facewash", "quantity": 1, "price": 300 }
+]
